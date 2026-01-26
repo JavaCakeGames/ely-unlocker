@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Ely Unlocker",
+  "version": "1.0",
+  "description": "Automatically enter daily codes on ely.gg.",
+  "icons": {
+    "16": "ico/16.png",
+    "32": "ico/32.png",
+    "48": "ico/48.png",
+    "128": "ico/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.ely.gg/*"],
+      "js": ["content.js"],
+      "world": "MAIN",
+      "run_at": "document_start"
+    }
+  ]
+}
