@@ -2,7 +2,7 @@
 
 A very simple extension to unlock price pages on *RuneScape* price-tracking website ely.gg, without having to check their Discord server each day.
 
-Submission to browser extension stores is currently pending, but you can look up how to import the sources into your browser if you like.
+[![Available in the Chrome Web Store](https://github.com/user-attachments/assets/2d4a47a1-4fe5-472f-9498-6cfb65708d87)](https://chromewebstore.google.com/detail/ely-unlocker/dhcgcjkhlcdbpkglamaaklppnlblnkhk)
 
 ![Without Ely Unlocker: Website asks for daily code](screenshots/locked-text.png)
 
