@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Ely Unlocker",
-  "version": "2.0",
+  "version": "2.1",
   "description": "Bypass daily codes nag on ely.gg.",
   "icons": {
     "16": "ico/16.png",

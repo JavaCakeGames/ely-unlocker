@@ -1,3 +1,7 @@
+if (window.location.pathname === '/gate') {
+  window.location.href = '/index';
+}
+
 let code = "";
 const field = document.getElementById("premium-code");
 
