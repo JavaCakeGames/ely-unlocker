@@ -1,5 +1,8 @@
-if (window.location.pathname === '/gate') {
-  window.location.href = '/index';
+const form = document.querySelector('form');
+const input = form.querySelector('input[name="code"]');
+if (form && input) {
+  input.value = 'https://www.ely.gg/';
+  if (document.referrer !== window.location.href) form.submit();
 }
 
 let code = "";
